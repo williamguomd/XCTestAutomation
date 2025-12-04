@@ -1,0 +1,41 @@
+{
+  "users": {
+    "valid": {
+      "username": "testuser",
+      "password": "password123",
+      "email": "testuser@example.com"
+    },
+    "invalid": {
+      "username": "invaliduser",
+      "password": "wrongpassword"
+    },
+    "admin": {
+      "username": "admin",
+      "password": "admin123",
+      "email": "admin@example.com",
+      "role": "administrator"
+    }
+  },
+  "testData": {
+    "sampleText": "This is a sample text for testing",
+    "longText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "numbers": {
+      "small": 5,
+      "medium": 100,
+      "large": 10000
+    },
+    "booleans": {
+      "true": true,
+      "false": false
+    }
+  },
+  "api": {
+    "endpoints": {
+      "login": "/api/v1/login",
+      "logout": "/api/v1/logout",
+      "user": "/api/v1/user"
+    }
+  }
+}
+
+
