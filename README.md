@@ -2,6 +2,8 @@
 
 A comprehensive iOS UI automation testing framework built on XCTest, following industry best practices.
 
+**This framework is still in initial stage, use it with your own judgement. I will improve it in next couple of days.**
+
 ## Features
 
 - **Page Object Model (POM)** pattern for maintainable test code
@@ -168,8 +170,4 @@ Update `TestConfig.swift` to configure:
 - Launch arguments
 - Timeouts
 - Environment settings
-
-## License
-
-MIT License
 
